@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/ba/97/73/ba9773446c933d5e522265344b393082.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    }
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+}
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #201658;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #201658;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #e0e1dd;
+	color: #201658;
+}
