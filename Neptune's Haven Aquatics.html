@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="Neptune's Haven Aquatics.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/jpg" href="2.png">
+    <title>Neptune's Haven Aquatics</title>
+</head>
+<center>
+<body>
+    <header>
+		<img src="1.png" alt="logo" width="334px" height="90px">
+        <div class="header">
+            <a href="Sign in - Log in.html"> Sign in | Log in</a>
+        </div>
+    </header>
+    <nav>
+        <a href="Neptune's Haven Aquatics.html">Home</a>
+        <a href="#Aquatic Pets">Pets</a>
+        <a href="#Accessories">Fish Care Resources</a>
+        <a href="#Decor">Aquarium Decoration</a>
+        <a href="#Help">More</a>
+    </nav>
+	
+<div class="slideshow-container">
+<div class="slide"><img src="3.png" alt="Slide 1"></div>
+<div class="slide"><img src="4.png" alt="Slide 2"></div>
+<div class="slide"><img src="5.png" alt="Slide 3"></div>
+<div class="slide"><img src="6.png" alt="Slide 4"></div>
+<div class="slide"><img src="7.png" alt="Slide 5"></div>
+<div class="slide"><img src="8.png" alt="Slide 6"></div>
+</div>
+</div>
+ 
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("slide");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000);
+    }
+</script>
+  
+    <section>
+        <div id="Nocturnal">
+            <h2>Welcome to Neptune's Haven Aquatics <i>!!</i> </h2>
+            <img class="image" src="1.png" alt="logo">
+            <p> <br> Your premier destination for all things aquatic! Nestled in the heart of marine exploration, Neptune's Haven is more than just 
+			an aquarium store – it's a gateway to the mesmerizing world beneath the waves. </br>
+			<br> Founded by the passionate marine enthusiast, Jewel Dwane Oliquino, Neptune's Haven Aquatics stands out for its commitment to excellence and dedication to marine 
+			life. Our mission is simple: to bring the wonders of the ocean directly to you, providing a diverse selection of sea creatures and aquarium supplies that cater to both 
+			novice enthusiasts and seasoned aquarists alike. </br>
+			<br> What sets Neptune's Haven apart is not just our exceptional selection of marine life, but also our personalized service and expert guidance. Our team of 
+			knowledgeable professionals is here to assist you every step of the way, from choosing the perfect aquatic pet to maintaining a thriving ecosystem in your aquarium. </br>
+			<br> At Neptune's Haven Aquatics, we understand that creating and maintaining an aquarium is not just a hobby – it's a journey. That's why we offer a wide range of 
+			accessories, decor, and maintenance supplies to help you craft the perfect underwater oasis in your home or office.</br>
+			<br> Whether you're captivated by the vibrant colors of tropical fish or mesmerized by the graceful movements of jellyfish, Neptune's Haven Aquatics has something for 
+			everyone. Step into our store and immerse yourself in the enchanting world of marine life – your underwater adventure awaits!</p>
+        </div> 
+    </section>
+</center>
+    <footer>
+		<h2> Quick Links </h2>
+            <p> Sapphire Heights, Azure Vista </p>
+            <p>Contact: 0937-2401-5862(fake) | info@neptuneshaven.com</p>
+    </footer>
+</body>
+
+</html>
